@@ -1,5 +1,5 @@
 # pytube-downloader
-## Some scripts for downloading video and audio from youtube using pytubefix
+Some scripts for downloading video and audio from youtube using pytubefix
 # Installation
 Clone the repository to your local machine:
 ```
