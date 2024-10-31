@@ -20,4 +20,4 @@ python ytmp3.py
 ```
 Paste youtube link and press enter
 
-Video will download to current working directory, audio will download to C:\User\\\<username>\Music
+For video, the highest quality video/audio streams will be downloaded, merged together and saved to the current working directory. Audio will save to C:\User\\\<username>\Music
