@@ -13,6 +13,6 @@ vid = YouTube(i, use_oauth=True, allow_oauth_cache=True)
 
 vid.register_on_progress_callback(on_progress)
 audio = vid.streams.get_audio_only()
-file_name = audio.default_filename[:-1] + "3"
+file_name = "".join(audio.default_filename.split()[:-1]) + ".mp3"
 audio.download(filename=file_name)
 os.replace(os.getcwd() + "\\" + file_name, f"C:/Users/{os.getlogin()}/Music/" + file_name)
